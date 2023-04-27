@@ -1,0 +1,23 @@
+{
+  "name": "create-simplexjs-app",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Robin Sencial Terrero <robinsenciales@gmail.com>",
+  "homepage": "https://github.com/robinsenciales/simplexjs#readme",
+  "license": "ISC",
+  "main": "lib/create-simplexjs-app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/create-simplexjs-app.test.js"
+  },
+  "dependencies": {
+    "execa": "^6.0.0",
+    "fs-extra": "^10.0.0"
+  }
+}

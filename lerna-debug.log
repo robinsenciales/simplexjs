@@ -1,0 +1,13 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '6.6.1',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   pkg: '@simplexjs/core'
+0 silly argv }
+1 notice cli v6.6.1
+2 verbose rootPath D:\Workspace\simplexjs-workspace
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@simplexjs%2fcore - Not found
+3 error     at C:\Users\admin\AppData\Roaming\nvm\v14.21.1\node_modules\lerna\node_modules\pacote\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+3 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+3 error     at async RegistryFetcher.packument (C:\Users\admin\AppData\Roaming\nvm\v14.21.1\node_modules\lerna\node_modules\pacote\lib\registry.js:92:19)
